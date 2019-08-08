@@ -1,0 +1,103 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.33">
+  <actions>
+    <org.jenkinsci.plugins.workflow.multibranch.JobPropertyTrackerAction plugin="workflow-multibranch@2.21">
+      <jobPropertyDescriptors>
+        <string>org.jenkinsci.plugins.workflow.job.properties.DisableConcurrentBuildsJobProperty</string>
+        <string>hudson.model.ParametersDefinitionProperty</string>
+        <string>org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty</string>
+        <string>com.coravy.hudson.plugins.github.GithubProjectProperty</string>
+        <string>jenkins.model.BuildDiscarderProperty</string>
+      </jobPropertyDescriptors>
+    </org.jenkinsci.plugins.workflow.multibranch.JobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.plugins.jira.JiraProjectProperty plugin="jira@3.0.8"/>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>15</daysToKeep>
+        <numToKeep>-1</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+    <org.jenkinsci.plugins.workflow.job.properties.DisableConcurrentBuildsJobProperty/>
+    <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.29.4">
+      <projectUrl>https://github.com/gkdevops/PetClinic.git/</projectUrl>
+      <displayName></displayName>
+    </com.coravy.hudson.plugins.github.GithubProjectProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>environment</name>
+          <description>This is env value</description>
+          <defaultValue>DEV</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers>
+        <com.cloudbees.jenkins.GitHubPushTrigger plugin="github@1.29.4">
+          <spec></spec>
+        </com.cloudbees.jenkins.GitHubPushTrigger>
+      </triggers>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.70">
+    <script>node(&apos;master&apos;) {
+    
+    def mvnHome = tool name: &apos;MAVEN3&apos;, type: &apos;maven&apos;
+    def mvnCli = &quot;${mvnHome}/bin/mvn&quot;
+    
+    properties([buildDiscarder(logRotator(artifactDaysToKeepStr: &apos;&apos;, artifactNumToKeepStr: &apos;&apos;, daysToKeepStr: &apos;15&apos;, numToKeepStr: &apos;&apos;)), disableConcurrentBuilds(), [$class: &apos;GithubProjectProperty&apos;, displayName: &apos;&apos;, projectUrlStr: &apos;https://github.com/gkdevops/PetClinic.git/&apos;], parameters([string(defaultValue: &apos;DEV&apos;, description: &apos;This is env value&apos;, name: &apos;environment&apos;, trim: false)]), pipelineTriggers([githubPush()])])
+    
+    stage(&apos;Clear workspace&apos;){
+        echo &quot;Deleteing the workspace directory&quot;
+        deleteDir()
+    }
+    
+    stage(&apos;print a parameter&apos;){
+        echo &quot;The value of the environment is ${params.environment}&quot;
+    }
+    
+    stage(&apos;Checkout Code&apos;){
+        git credentialsId: &apos;github.com&apos;, url: &apos;https://github.com/gkdevops/PetClinic.git&apos;
+    }
+    
+    stage(&apos;Maven Test&apos;){
+        sh &quot;${mvnCli} clean test&quot;
+    }
+
+    stage(&apos;SonarQube&apos;){
+        sh &quot;${mvnCli} sonar:sonar -Dsonar.projectKey=petclinic -Dsonar.host.url=http://ec2-54-210-39-226.compute-1.amazonaws.com:9000 -Dsonar.login=67e96279545cefb4aa148ef831f9307e3b1497dd&quot;
+    }
+    
+    stage(&apos;maven Package&apos;){
+        sh &quot;${mvnCli} package -Dmaven.test.skip=true&quot;
+    }
+    
+    stage(&apos;Archive Artifacts&apos;){
+        archiveArtifacts &apos;**/*.war&apos;
+    }
+    
+    stage(&apos;Store the test results&apos;){
+        junit allowEmptyResults: true, testResults: &apos;**/surefire-reports/*.xml&apos;
+    }
+    
+    stage(&apos;Deploy to container&apos;){
+        sh &apos;ansible-playbook /opt/deploy.yml&apos;
+    }
+    
+    stage(&apos;Smoke test&apos;){
+        sleep 5
+        sh &quot;curl http://ec2-52-201-92-225.compute-1.amazonaws.com:8080/petclinic/&quot;
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

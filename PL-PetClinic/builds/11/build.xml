@@ -1,0 +1,195 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.33">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <com.cloudbees.jenkins.GitHubPushCause plugin="github@1.29.4">
+            <pushedBy>gkdevops</pushedBy>
+          </com.cloudbees.jenkins.GitHubPushCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>environment</name>
+          <description>This is env value</description>
+          <value>DEV</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>environment</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.13">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <hudson.plugins.git.util.BuildData plugin="git@3.10.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.8.0">
+              <sha1>402a254b5e816bab445884b69c5afe19d6bbfa39</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>11</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/gkdevops/PetClinic.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.10.0">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/root/.jenkins/workspace/PL-PetClinic</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.9">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/gkdevops/PetClinic.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+  </actions>
+  <queueId>117</queueId>
+  <timestamp>1563429272224</timestamp>
+  <startTime>1563429272232</startTime>
+  <result>ABORTED</result>
+  <duration>35886</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>ABORTED</result>
+    <script>node(&apos;master&apos;) {
+    
+    def mvnHome = tool name: &apos;MAVEN3&apos;, type: &apos;maven&apos;
+    def mvnCli = &quot;${mvnHome}/bin/mvn&quot;
+    
+    properties([buildDiscarder(logRotator(artifactDaysToKeepStr: &apos;&apos;, artifactNumToKeepStr: &apos;&apos;, daysToKeepStr: &apos;15&apos;, numToKeepStr: &apos;&apos;)), disableConcurrentBuilds(), [$class: &apos;GithubProjectProperty&apos;, displayName: &apos;&apos;, projectUrlStr: &apos;https://github.com/gkdevops/PetClinic.git/&apos;], parameters([string(defaultValue: &apos;DEV&apos;, description: &apos;This is env value&apos;, name: &apos;environment&apos;, trim: false)]), pipelineTriggers([githubPush()])])
+    
+    stage(&apos;Clear workspace&apos;){
+        echo &quot;Deleteing the workspace directory&quot;
+        deleteDir()
+    }
+    
+    stage(&apos;print a parameter&apos;){
+        echo &quot;The value of the environment is ${params.environment}&quot;
+    }
+    
+    stage(&apos;Checkout Code&apos;){
+        git credentialsId: &apos;github.com&apos;, url: &apos;https://github.com/gkdevops/PetClinic.git&apos;
+    }
+    
+    stage(&apos;Maven Test&apos;){
+        sh &quot;${mvnCli} clean test&quot;
+    }
+
+    stage(&apos;SonarQube&apos;){
+        sh &quot;${mvnCli} sonar:sonar -Dsonar.projectKey=petclinic -Dsonar.host.url=http://ec2-54-210-39-226.compute-1.amazonaws.com:9000 -Dsonar.login=67e96279545cefb4aa148ef831f9307e3b1497dd&quot;
+    }
+    
+    stage(&apos;maven Package&apos;){
+        sh &quot;${mvnCli} package -Dmaven.test.skip=true&quot;
+    }
+    
+    stage(&apos;Nexus Artifactory&apos;){
+        nexusPublisher nexusInstanceId: &apos;nexus3&apos;, nexusRepositoryId: &apos;maven-releases&apos;, packages: [[$class: &apos;MavenPackage&apos;, mavenAssetList: [[classifier: &apos;&apos;, extension: &apos;&apos;, filePath: &apos;/root/.jenkins/workspace/FS-PetClinic/target/petclinic.war&apos;]], mavenCoordinate: [artifactId: &apos;petclinic&apos;, groupId: &apos;org.springframework.samples&apos;, packaging: &apos;war&apos;, version: &apos;2.0&apos;]]]
+    }
+    
+    stage(&apos;Archive Artifacts&apos;){
+        archiveArtifacts &apos;**/*.war&apos;
+    }
+    
+    stage(&apos;Store the test results&apos;){
+        junit allowEmptyResults: true, testResults: &apos;**/surefire-reports/*.xml&apos;
+    }
+    
+    stage(&apos;Deploy to container&apos;){
+        sh &apos;ansible-playbook /opt/deploy.yml&apos;
+    }
+    
+    stage(&apos;Smoke test&apos;){
+        sleep 5
+        sh &quot;curl http://ec2-52-201-92-225.compute-1.amazonaws.com:8080/petclinic/&quot;
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>797087209</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>736655567</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>2602203745</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>981216909</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>390495953</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>35</iota>
+    <head>1:35</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.10.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/gkdevops/PetClinic.git</url>
+            <credentialsId>github.com</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>*/master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.LocalBranch>
+            <localBranch>master</localBranch>
+          </hudson.plugins.git.extensions.impl.LocalBranch>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/root/.jenkins/workspace/PL-PetClinic</workspace>
+      <changelogFile>/root/.jenkins/jobs/PL-PetClinic/builds/11/changelog2035925829881144663.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

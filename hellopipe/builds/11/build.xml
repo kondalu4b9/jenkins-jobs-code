@@ -1,0 +1,112 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.33">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>environment</name>
+          <description></description>
+          <value>DEV</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>environment</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>goutham</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.13">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>94</queueId>
+  <timestamp>1563369938565</timestamp>
+  <startTime>1563369938571</startTime>
+  <result>FAILURE</result>
+  <duration>6274</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node(&apos;slave-1&apos;){
+    
+    def mvnHome = tool name: &apos;MAVEN3&apos;, type: &apos;maven&apos;
+    def mvnCli = &quot;${mvnHome}/bin/mvn&quot;
+    
+    
+    properties([buildDiscarder(logRotator(artifactDaysToKeepStr: &apos;&apos;, artifactNumToKeepStr: &apos;&apos;, daysToKeepStr: &apos;&apos;, numToKeepStr: &apos;30&apos;)), disableConcurrentBuilds(), [$class: &apos;GithubProjectProperty&apos;, displayName: &apos;&apos;, projectUrlStr: &apos;http://github.com/gkdevops/PetClinic.git/&apos;], parameters([string(defaultValue: &apos;DEV&apos;, description: &apos;&apos;, name: &apos;environment&apos;, trim: false)]), pipelineTriggers([githubPush()])])
+    
+    stage(&apos;Checkout Code&apos;){
+        git credentialsId: &apos;b682e002-bdfa-4f9a-9dd2-5ac74d2ddbd2&apos;, url: &apos;https://github.com/gkdevops/PetClinic.git&apos;
+    }
+    
+    stage(&apos;Read parameters&apos;){
+        echo &quot;${params.environment}&quot;
+    }
+    
+    stage(&apos;Maven Test&apos;){
+        sh &quot;${mvnCli} clean compile&quot;
+    }
+    
+    stage(&apos;SonarQube&apos;){
+        sh &quot;mvn sonar:sonar -Dsonar.projectKey=petclinic -Dsonar.host.url=http://ec2-54-210-39-226.compute-1.amazonaws.com:9000 -Dsonar.login=67e96279545cefb4aa148ef831f9307e3b1497dd&quot;
+    }
+    
+    stage(&apos;Maven Package&apos;){
+        sh &quot;${mvnCli} package -Dmaven.test.skip=true&quot;
+    }    
+    
+    stage(&apos;Deploy Code&apos;){
+        sshagent([&apos;centos&apos;]) {
+            sh &apos;scp -o StrictHostKeyChecking=no target/*.war centos@ec2-54-85-55-204.compute-1.amazonaws.com:/opt/apache-tomcat-7.0.94/webapps/&apos;
+        }
+    }
+    
+    stage(&apos;smoke test&apos;){
+        sleep 10
+        sh &apos;curl http://ec2-54-85-55-204.compute-1.amazonaws.com:8080&apos;
+    }
+
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>163938405</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>143384543</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>1630696718</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>381668822</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>259479495</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>14</iota>
+    <head>1:14</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

@@ -1,0 +1,115 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.3">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.70">
+    <parentIds>
+      <string>5</string>
+    </parentIds>
+    <id>6</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.multibranch.JobPropertyStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.70">
+      <arguments>
+        <entry>
+          <string>properties</string>
+          <list>
+            <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.19">
+              <symbol>buildDiscarder</symbol>
+              <arguments class="linked-hash-map">
+                <entry>
+                  <string>&lt;anonymous&gt;</string>
+                  <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                    <symbol>logRotator</symbol>
+                    <arguments class="linked-hash-map">
+                      <entry>
+                        <string>artifactDaysToKeepStr</string>
+                        <string></string>
+                      </entry>
+                      <entry>
+                        <string>artifactNumToKeepStr</string>
+                        <string></string>
+                      </entry>
+                      <entry>
+                        <string>daysToKeepStr</string>
+                        <string></string>
+                      </entry>
+                      <entry>
+                        <string>numToKeepStr</string>
+                        <string>30</string>
+                      </entry>
+                    </arguments>
+                  </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                </entry>
+              </arguments>
+            </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+            <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.19">
+              <symbol>disableConcurrentBuilds</symbol>
+              <arguments class="linked-hash-map"/>
+            </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+            <linked-hash-map>
+              <entry>
+                <string>$class</string>
+                <string>GithubProjectProperty</string>
+              </entry>
+              <entry>
+                <string>displayName</string>
+                <string></string>
+              </entry>
+              <entry>
+                <string>projectUrlStr</string>
+                <string>http://github.com/gkdevops/PetClinic.git/</string>
+              </entry>
+            </linked-hash-map>
+            <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.19">
+              <symbol>parameters</symbol>
+              <arguments>
+                <entry>
+                  <string>&lt;anonymous&gt;</string>
+                  <list>
+                    <map>
+                      <entry>
+                        <string>name</string>
+                        <string>environment</string>
+                      </entry>
+                      <entry>
+                        <string>description</string>
+                        <string></string>
+                      </entry>
+                      <entry>
+                        <string>trim</string>
+                        <boolean>false</boolean>
+                      </entry>
+                      <entry>
+                        <string>defaultValue</string>
+                        <wf.a.ArgumentsAction_-NotStoredReason>MASKED_VALUE</wf.a.ArgumentsAction_-NotStoredReason>
+                      </entry>
+                    </map>
+                  </list>
+                </entry>
+              </arguments>
+            </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+            <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.19">
+              <symbol>pipelineTriggers</symbol>
+              <arguments class="linked-hash-map">
+                <entry>
+                  <string>&lt;anonymous&gt;</string>
+                  <list>
+                    <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                      <symbol>githubPush</symbol>
+                      <arguments class="linked-hash-map"/>
+                    </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                  </list>
+                </entry>
+              </arguments>
+            </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>false</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.35">
+      <startTime>1563370863962</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

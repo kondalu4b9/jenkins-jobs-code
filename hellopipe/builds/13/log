@@ -1,0 +1,1307 @@
+Started by user [8mha:////4DwjZzEcffynxGKjn0nR1AzYn3G2CbWY+1lAIthiTYrGAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL99PzSkozEXAChXnHAwgAAAA==[0mgoutham
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4CZ+36KogOyRDokU4T6yJXo8kCQU/M+O66I8VbhpojnCAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Frp0F+ro1PsALtdSyRyGmmpsE5rps6zcdK763cwZdoGAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4INC+vWut4O5DYdi90uXgT8hLt2AaQGp0TtAo9F7WKONAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /root/.jenkins/workspace/hellopipe
+[8mha:////4FG7ao3vNlTGPbn4hb65hkyHuj+mlBTs00gPgeawLQW9AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4LVlWpyx6vrSRz9rOq2pA8U3RDnqeik7smxAXU8TZb1QAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] tool
+[8mha:////4D7SNiw8HE5a9xsFC+SCv6pOoyndFgiFeNQw2xjpOtrCAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGBtjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED+qfHravAAAAA==[0m[Pipeline] properties
+[8mha:////4OFuEqj30OyTSRm8cQ/d3JVQNb9ZB3eEYT1wc8sKxfOUAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0QWJATKxRFk4QkhDSRv+3SUo7cSKuxh0IVGLCkiXbkvWeL6hThCNFx1uLncekPe/D6EriE8XuGmjiLV24JkwULJd2kmTsaamSsoVFrIKVgLVFHSh5dBk2olV31QSFrjnnWLaDgMqbAR7ARCFnFfO3zBG2t9Ekwh/nLwDmPgPbFe8/v/oNP1aWNcAAAAA=[0m[Pipeline] stage
+[8mha:////4Hs4xH9jZ2D9Qv9mOs3g5E81kJw1NVPYaH/e4ocO2dqHAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Checkout Code)
+[8mha:////4D1L/b+5HmTUgviRq55ANhFFtBb5XPyGsTNk0q+FbThwAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] git
+using credential b682e002-bdfa-4f9a-9dd2-5ac74d2ddbd2
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/gkdevops/PetClinic.git # timeout=10
+Fetching upstream changes from https://github.com/gkdevops/PetClinic.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/gkdevops/PetClinic.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision c63986c8340329d374b091ace96b1743203603c9 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c63986c8340329d374b091ace96b1743203603c9
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master c63986c8340329d374b091ace96b1743203603c9
+Commit message: "Update Readme.txt"
+ > git rev-list --no-walk c63986c8340329d374b091ace96b1743203603c9 # timeout=10
+[8mha:////4DzXcaen+glPF/ZZ2/+koIfQaA7ei4cu33qGoD39b0V4AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8Brmfz270AAAA=[0m[Pipeline] }
+[8mha:////4O91sqzZ5nXJ17ZbBYpmJXDLRLvOy4Ai4XhiWFnDYiMqAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIMlYVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aj1Msdr0AAAA=[0m[Pipeline] // stage
+[8mha:////4AuWw4Sv2ie5nfex+gDR13AGNbGorjfHaqc4emtNETT8AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2Gw/x/INvUXiHMEAAAA=[0m[Pipeline] stage
+[8mha:////4FFMPzz5tkXRiodS59n54wbCJoI4C28biForqhEZr96uAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Read parameters)
+[8mha:////4LFRlt5X857lyI26kFRJdFCvQzgBYjSjGI5x+/llAT7OAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] echo
+DEV
+[8mha:////4HzlUtLRj0TaVQeGQuAsUgWGxZA1qVdRRzD+PTkyQvCJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4Oe9XApVYUOiiPMfDq5Hqniv2QfUgbi/mQFi+Nc509MxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4OeFkoAdjp57bLpWuBAncs1TT/r/lHKM2j+wv/bpMZWvAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJCQKREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lGw7UL0zBAAAA[0m[Pipeline] stage
+[8mha:////4Jd7a/NJBW4ODzCrMPNMhbEcqxYz9jopynINtyngXjSHAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Maven Test)
+[8mha:////4EunAYrTAOWUK8eaO+BZ84FjSxlDL5fYeJwp3x2QCNz+AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ /opt/apache-maven-3.6.1/bin/mvn clean compile
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.springframework.samples:spring-petclinic >------------
+[INFO] Building petclinic 4.2.5-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spring-petclinic ---
+[INFO] Deleting /root/.jenkins/workspace/hellopipe/target
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:clean (default) @ spring-petclinic ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-petclinic ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 18 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ spring-petclinic ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 45 source files to /root/.jenkins/workspace/hellopipe/target/classes
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java]]
+[parsing completed 21ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java]]
+[parsing completed 5ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java]]
+[parsing completed 4ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/Owner.java]]
+[parsing completed 12ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/VisitRepository.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/package-info.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataOwnerRepository.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/Visit.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/Pet.java]]
+[parsing completed 16ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java]]
+[parsing completed 2ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/web/CrashController.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/web/VisitController.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/web/PetController.java]]
+[parsing completed 12ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/web/PetValidator.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/PetRepository.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/PetType.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java]]
+[parsing completed 2ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/service/ClinicService.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/Vets.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVetRepository.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/web/package-info.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRowMapper.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPet.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/Vet.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/Person.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/Specialty.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataPetRepository.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetVisitExtractor.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVisitRepository.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/web/PetTypeFormatter.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java]]
+[parsing completed 2ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jpa/package-info.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/web/VetController.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/OwnerRepository.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/package-info.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/VetRepository.java]]
+[parsing completed 0ms]
+[search path for source files: /root/.jenkins/workspace/hellopipe/src/main/java]
+[search path for class files: /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/resources.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/rt.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/sunrsasign.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jsse.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jce.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/charsets.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jfr.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/classes,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/cldrdata.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/dnsns.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/jaccess.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/localedata.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/nashorn.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/sunec.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/sunjce_provider.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/sunpkcs11.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/zipfs.jar,/root/.jenkins/workspace/hellopipe/target/classes,/root/.m2/repository/org/jadira/usertype/usertype.core/3.2.0.GA/usertype.core-3.2.0.GA.jar,/root/.m2/repository/org/jadira/usertype/usertype.spi/3.2.0.GA/usertype.spi-3.2.0.GA.jar,/root/.m2/repository/org/apache/tomcat/tomcat-servlet-api/7.0.59/tomcat-servlet-api-7.0.59.jar,/root/.m2/repository/javax/servlet/jsp/javax.servlet.jsp-api/2.2.1/javax.servlet.jsp-api-2.2.1.jar,/root/.m2/repository/org/apache/tomcat/tomcat-jasper-el/7.0.59/tomcat-jasper-el-7.0.59.jar,/root/.m2/repository/org/apache/tomcat/tomcat-el-api/7.0.59/tomcat-el-api-7.0.59.jar,/root/.m2/repository/javax/servlet/jsp/jstl/javax.servlet.jsp.jstl-api/1.2.1/javax.servlet.jsp.jstl-api-1.2.1.jar,/root/.m2/repository/org/apache/taglibs/taglibs-standard-jstlel/1.2.5/taglibs-standard-jstlel-1.2.5.jar,/root/.m2/repository/org/apache/taglibs/taglibs-standard-spec/1.2.5/taglibs-standard-spec-1.2.5.jar,/root/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar,/root/.m2/repository/org/springframework/boot/spring-boot-starter/1.3.3.RELEASE/spring-boot-starter-1.3.3.RELEASE.jar,/root/.m2/repository/org/springframework/boot/spring-boot/1.3.3.RELEASE/spring-boot-1.3.3.RELEASE.jar,/root/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.3.3.RELEASE/spring-boot-autoconfigure-1.3.3.RELEASE.jar,/root/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.3.3.RELEASE/spring-boot-starter-logging-1.3.3.RELEASE.jar,/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar,/root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.jar,/root/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.16/log4j-over-slf4j-1.7.16.jar,/root/.m2/repository/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/1.3.3.RELEASE/spring-boot-starter-data-jpa-1.3.3.RELEASE.jar,/root/.m2/repository/org/springframework/boot/spring-boot-starter-aop/1.3.3.RELEASE/spring-boot-starter-aop-1.3.3.RELEASE.jar,/root/.m2/repository/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE.jar,/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar,/root/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/1.3.3.RELEASE/spring-boot-starter-jdbc-1.3.3.RELEASE.jar,/root/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar,/root/.m2/repository/org/springframework/data/spring-data-jpa/1.9.4.RELEASE/spring-data-jpa-1.9.4.RELEASE.jar,/root/.m2/repository/org/springframework/data/spring-data-commons/1.11.4.RELEASE/spring-data-commons-1.11.4.RELEASE.jar,/root/.m2/repository/org/springframework/spring-orm/4.2.5.RELEASE/spring-orm-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-aspects/4.2.5.RELEASE/spring-aspects-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/data/spring-data-jdbc-core/1.1.0.RELEASE/spring-data-jdbc-core-1.1.0.RELEASE.jar,/root/.m2/repository/org/springframework/retry/spring-retry/1.1.2.RELEASE/spring-retry-1.1.2.RELEASE.jar,/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-expression/4.2.5.RELEASE/spring-expression-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-context-support/4.2.5.RELEASE/spring-context-support-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-oxm/4.2.5.RELEASE/spring-oxm-4.2.5.RELEASE.jar,/root/.m2/repository/org/aspectj/aspectjrt/1.8.8/aspectjrt-1.8.8.jar,/root/.m2/repository/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar,/root/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar,/root/.m2/repository/joda-time/joda-time-hibernate/1.3/joda-time-hibernate-1.3.jar,/root/.m2/repository/joda-time/joda-time-jsptags/1.1.1/joda-time-jsptags-1.1.1.jar,/root/.m2/repository/org/hibernate/hibernate-entitymanager/4.3.11.Final/hibernate-entitymanager-4.3.11.Final.jar,/root/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar,/root/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar,/root/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar,/root/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar,/root/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar,/root/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar,/root/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar,/root/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar,/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar,/root/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar,/root/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar,/root/.m2/repository/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar,/root/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar,/root/.m2/repository/com/fasterxml/classmate/1.1.0/classmate-1.1.0.jar,/root/.m2/repository/org/hibernate/hibernate-ehcache/4.3.11.Final/hibernate-ehcache-4.3.11.Final.jar,/root/.m2/repository/net/sf/ehcache/ehcache-core/2.4.3/ehcache-core-2.4.3.jar,/root/.m2/repository/net/sf/ehcache/ehcache/2.10.1/ehcache-2.10.1.jar,/root/.m2/repository/com/github/dandelion/dandelion-jsp/1.1.1/dandelion-jsp-1.1.1.jar,/root/.m2/repository/com/github/dandelion/dandelion-core/1.1.1/dandelion-core-1.1.1.jar,/root/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar,/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.6.5/jackson-core-2.6.5.jar,/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.5/jackson-annotations-2.6.5.jar,/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.jar,/root/.m2/repository/com/github/dandelion/datatables-jsp/1.1.0/datatables-jsp-1.1.0.jar,/root/.m2/repository/com/github/dandelion/datatables-core/1.1.0/datatables-core-1.1.0.jar,/root/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar,/root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar,/root/.m2/repository/com/github/dandelion/datatables-export-itext/1.1.0/datatables-export-itext-1.1.0.jar,/root/.m2/repository/com/itextpdf/itextpdf/5.4.5/itextpdf-5.4.5.jar,/root/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar,.]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/sql/ResultSet.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/sql/SQLException.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Date.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar(org/joda/time/DateTime.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar(org/joda/time/LocalDate.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/RowMapper.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/CascadeType.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/Column.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/Entity.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/FetchType.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/JoinColumn.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/ManyToOne.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/OneToMany.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/Table.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar(org/hibernate/annotations/Type.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar(org/springframework/beans/support/MutableSortDefinition.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar(org/springframework/beans/support/PropertyComparator.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/format/annotation/DateTimeFormat.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/MappedSuperclass.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/GeneratedValue.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/GenerationType.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/Id.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar(javax/validation/constraints/Digits.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar(org/hibernate/validator/constraints/NotEmpty.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar(org/springframework/core/style/ToStringCreator.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar(org/springframework/beans/factory/annotation/Autowired.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar(org/springframework/dao/DataAccessException.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/JdbcTemplate.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/namedparam/MapSqlParameterSource.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/simple/SimpleJdbcInsert.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/stereotype/Repository.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/javax/sql/DataSource.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar(org/springframework/dao/EmptyResultDataAccessException.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/BeanPropertyRowMapper.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-orm/4.2.5.RELEASE/spring-orm-4.2.5.RELEASE.jar(org/springframework/orm/ObjectRetrievalFailureException.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/EntityManager.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/PersistenceContext.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/cache/annotation/Cacheable.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/JoinTable.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/ManyToMany.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/bind/annotation/XmlElement.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/data/spring-data-jpa/1.9.4.RELEASE/spring-data-jpa-1.9.4.RELEASE.jar(org/springframework/data/jpa/repository/Query.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/data/spring-data-commons/1.11.4.RELEASE/spring-data-commons-1.11.4.RELEASE.jar(org/springframework/data/repository/Repository.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/data/spring-data-commons/1.11.4.RELEASE/spring-data-commons-1.11.4.RELEASE.jar(org/springframework/data/repository/query/Param.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/namedparam/BeanPropertySqlParameterSource.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/stereotype/Controller.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar(org/springframework/web/bind/annotation/RequestMapping.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar(org/springframework/web/bind/annotation/RequestMethod.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar(javax/validation/Valid.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/validation/BindingResult.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar(org/springframework/web/bind/WebDataBinder.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar(org/springframework/web/bind/annotation/InitBinder.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar(org/springframework/web/bind/annotation/ModelAttribute.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar(org/springframework/web/bind/annotation/PathVariable.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/stereotype/Service.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar(org/springframework/transaction/annotation/Transactional.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/ui/ModelMap.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar(org/springframework/util/StringUtils.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/validation/Errors.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/validation/Validator.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/aspectj/aspectjrt/1.8.8/aspectjrt-1.8.8.jar(org/aspectj/lang/ProceedingJoinPoint.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/aspectj/aspectjrt/1.8.8/aspectjrt-1.8.8.jar(org/aspectj/lang/annotation/Around.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/aspectj/aspectjrt/1.8.8/aspectjrt-1.8.8.jar(org/aspectj/lang/annotation/Aspect.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/jmx/export/annotation/ManagedAttribute.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/jmx/export/annotation/ManagedOperation.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/jmx/export/annotation/ManagedResource.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar(org/springframework/util/StopWatch.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/bind/annotation/XmlRootElement.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/data/spring-data-jdbc-core/1.1.0.RELEASE/spring-data-jdbc-core-1.1.0.RELEASE.jar(org/springframework/data/jdbc/core/OneToManyResultSetExtractor.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/ResultSetExtractor.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/text/ParseException.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/format/Formatter.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/format/Printer.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/format/Parser.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/Query.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-orm/4.2.5.RELEASE/spring-orm-4.2.5.RELEASE.jar(org/springframework/orm/hibernate3/support/OpenSessionInViewFilter.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/ui/Model.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.jar(org/springframework/web/servlet/ModelAndView.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar(org/springframework/web/bind/annotation/ResponseBody.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/format/annotation/DateTimeFormat$ISO.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar(javax/validation/Constraint.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar(javax/validation/constraints/Size.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/PersistenceContextType.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/SynchronizationType.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar(org/springframework/core/annotation/AliasFor.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/ForeignKey.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/ConstraintMode.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/SuppressWarnings.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar(org/springframework/transaction/annotation/Propagation.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar(org/springframework/transaction/annotation/Isolation.class)]]
+[checking org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Error.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/sql/Wrapper.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/sql/Date.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar(org/joda/time/Chronology.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar(org/joda/time/DateTimeZone.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Number.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Byte.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Short.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Float.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.class]]
+[checking org.springframework.samples.petclinic.repository.jdbc.JdbcPet]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractSet.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar(org/springframework/beans/support/SortDefinition.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Comparator.class)]]
+[checking org.springframework.samples.petclinic.model.Pet]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar(org/springframework/beans/BeansException.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar(org/springframework/core/NestedRuntimeException.class)]]
+[checking org.springframework.samples.petclinic.model.NamedEntity]
+[checking org.springframework.samples.petclinic.model.BaseEntity]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcPet.class]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/Pet.class]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/NamedEntity.class]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/BaseEntity.class]]
+[checking org.springframework.samples.petclinic.model.PetType]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/PetType.class]]
+[checking org.springframework.samples.petclinic.model.Owner]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class)]]
+[checking org.springframework.samples.petclinic.model.Person]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/Owner.class]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/Person.class]]
+[checking org.springframework.samples.petclinic.model.Visit]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/Visit.class]]
+[checking org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/simple/SimpleJdbcInsertOperations.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/simple/AbstractJdbcInsert.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/namedparam/AbstractSqlParameterSource.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/namedparam/SqlParameterSource.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/UnsupportedOperationException.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar(org/joda/time/ReadablePartial.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar(org/joda/time/base/BaseLocal.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar(org/joda/time/base/AbstractPartial.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/PreparedStatementSetter.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/RowCallbackHandler.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/PreparedStatementCreator.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/JdbcOperations.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/support/JdbcAccessor.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar(org/springframework/beans/factory/InitializingBean.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.class]]
+[checking org.springframework.samples.petclinic.repository.VisitRepository]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/VisitRepository.class]]
+[checking org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/javax/sql/CommonDataSource.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractMap.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/namedparam/NamedParameterJdbcOperations.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar(org/springframework/dao/IncorrectResultSizeDataAccessException.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar(org/springframework/dao/DataRetrievalFailureException.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar(org/springframework/dao/NonTransientDataAccessException.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Double.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Void.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.class]]
+[checking org.springframework.samples.petclinic.repository.PetRepository]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/PetRepository.class]]
+[checking org.springframework.samples.petclinic.repository.OwnerRepository]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/OwnerRepository.class]]
+[checking org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/TypedQuery.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/criteria/CriteriaDelete.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/criteria/CriteriaUpdate.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/criteria/CriteriaQuery.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.class]]
+[checking org.springframework.samples.petclinic.repository.VetRepository]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/VetRepository.class]]
+[checking org.springframework.samples.petclinic.model.Vet]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/Vet.class]]
+[checking org.springframework.samples.petclinic.model.Specialty]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/Specialty.class]]
+[checking org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataOwnerRepository.class]]
+[checking org.springframework.samples.petclinic.util.EntityUtils]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/GenericDeclaration.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/AnnotatedElement.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Type.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/util/EntityUtils.class]]
+[checking org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AbstractStringBuilder.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Appendable.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuffer.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.class]]
+[checking org.springframework.samples.petclinic.web.CrashController]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/web/CrashController.class]]
+[checking org.springframework.samples.petclinic.web.VisitController]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/validation/DataBinder.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar(org/springframework/beans/PropertyEditorRegistry.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar(org/springframework/beans/TypeConverter.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/web/VisitController.class]]
+[checking org.springframework.samples.petclinic.service.ClinicService]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/service/ClinicService.class]]
+[checking org.springframework.samples.petclinic.service.ClinicServiceImpl]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/service/ClinicServiceImpl.class]]
+[checking org.springframework.samples.petclinic.web.PetController]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedHashMap.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/web/PetController.class]]
+[checking org.springframework.samples.petclinic.web.PetValidator]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/web/PetValidator.class]]
+[checking org.springframework.samples.petclinic.util.CallMonitoringAspect]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/aspectj/aspectjrt/1.8.8/aspectjrt-1.8.8.jar(org/aspectj/lang/JoinPoint.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/util/CallMonitoringAspect.class]]
+[checking org.springframework.samples.petclinic.model.Vets]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/Vets.class]]
+[checking org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVetRepository.class]]
+[checking org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRowMapper.class]]
+[checking org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl$1.class]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.class]]
+[checking org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataPetRepository.class]]
+[checking org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcPetVisitExtractor.class]]
+[checking org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVisitRepository.class]]
+[checking org.springframework.samples.petclinic.web.PetTypeFormatter]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/web/PetTypeFormatter.class]]
+[checking org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.class]]
+[checking org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/Parameter.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.class]]
+[checking org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.class]]
+[checking org.springframework.samples.petclinic.web.OwnerController]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.jar(org/springframework/web/servlet/View.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/web/OwnerController.class]]
+[checking org.springframework.samples.petclinic.web.VetController]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/web/VetController.class]]
+[total 759ms]
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.723 s
+[INFO] Finished at: 2019-07-17T13:27:12Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4OYhVMssgg7SKHSPiMra1goYCkmSN5LY11YvkpxpXpphAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
+[8mha:////4Iq7KUGUbMHAOWepXn6LAlgoTd63B7NZbwqqSKTi6JLTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // stage
+[8mha:////4ATDVjMgbySaDrmHy61k2o6zi2Fj0GxTaxTjG+gb0URNAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYQjRXSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oNIF8KLcEAAAA=[0m[Pipeline] stage
+[8mha:////4NRvW6+6GPGVnlfqFqrpuvr6Y4xmqV5MLX9cM8Xea9XpAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (SonarQube)
+[8mha:////4KgwkUDDHF5ilp2Bz/JeNY9p6KwkHrQt+dCvHAXy1SVYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] sh
++ /opt/apache-maven-3.6.1/bin/mvn sonar:sonar -Dsonar.projectKey=petclinic -Dsonar.host.url=http://ec2-54-210-39-226.compute-1.amazonaws.com:9000 -Dsonar.login=67e96279545cefb4aa148ef831f9307e3b1497dd
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.springframework.samples:spring-petclinic >------------
+[INFO] Building petclinic 4.2.5-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.6.0.1398:sonar (default-cli) @ spring-petclinic ---
+[INFO] User cache: /root/.sonar/cache
+[INFO] SonarQube version: 7.9.1
+[INFO] Default locale: "en_US", source code encoding: "UTF-8"
+[WARNING] SonarScanner will require Java 11+ to run starting in SonarQube 8.x
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=104ms
+[INFO] Server id: BF41A1F2-AWv8D0v2OQzwwXB_6OZg
+[INFO] User cache: /root/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=58ms
+[INFO] Load/download plugins (done) | time=210ms
+[INFO] Process project properties
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=4ms
+[INFO] Project key: petclinic
+[INFO] Base dir: /root/.jenkins/workspace/hellopipe
+[INFO] Working dir: /root/.jenkins/workspace/hellopipe/target/sonar
+[INFO] Load project settings for component key: 'petclinic'
+[INFO] Load project settings for component key: 'petclinic' (done) | time=54ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=199ms
+[INFO] Detected Jenkins
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=3386ms
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=33ms
+[INFO] 331 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for css: Sonar way
+[INFO] Quality profile for java: Sonar way
+[INFO] Quality profile for js: Sonar way
+[INFO] Quality profile for jsp: Sonar way
+[INFO] Quality profile for web: Sonar way
+[INFO] Quality profile for xml: Sonar way
+[INFO] ------------- Run sensors on module petclinic
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=60ms
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 7
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=18ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=2ms
+[INFO] Java Main Files AST scan
+[INFO] 45 source files to be analyzed
+[INFO] Java Main Files AST scan (done) | time=2457ms
+[INFO] Java Test Files AST scan
+[INFO] 11 source files to be analyzed
+[INFO] 45/45 source files have been analyzed
+[INFO] Java Test Files AST scan (done) | time=410ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=3689ms
+[INFO] Sensor SonarCSS Metrics [cssfamily]
+[INFO] 11/11 source files have been analyzed
+[INFO] Sensor SonarCSS Metrics [cssfamily] (done) | time=326ms
+[INFO] Sensor SonarCSS Rules [cssfamily]
+[ERROR] Error when running: 'node -v'. Is Node.js available during analysis? No CSS files will be analyzed.
+org.sonarsource.nodejs.NodeCommandException: Error when running: 'node -v'. Is Node.js available during analysis?
+	at org.sonarsource.nodejs.NodeCommand.start(NodeCommand.java:77)
+	at org.sonarsource.nodejs.NodeCommandBuilderImpl.getVersion(NodeCommandBuilderImpl.java:171)
+	at org.sonarsource.nodejs.NodeCommandBuilderImpl.checkNodeCompatibility(NodeCommandBuilderImpl.java:144)
+	at org.sonarsource.nodejs.NodeCommandBuilderImpl.build(NodeCommandBuilderImpl.java:120)
+	at org.sonar.css.plugin.StylelintCommandProvider.nodeCommand(StylelintCommandProvider.java:64)
+	at org.sonar.css.plugin.CssRuleSensor.execute(CssRuleSensor.java:111)
+	at org.sonar.scanner.sensor.AbstractSensorWrapper.analyse(AbstractSensorWrapper.java:48)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute(ModuleSensorsExecutor.java:85)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.lambda$execute$1(ModuleSensorsExecutor.java:59)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.withModuleStrategy(ModuleSensorsExecutor.java:77)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute(ModuleSensorsExecutor.java:59)
+	at org.sonar.scanner.scan.ModuleScanContainer.doAfterStart(ModuleScanContainer.java:82)
+	at org.sonar.core.platform.ComponentContainer.startComponents(ComponentContainer.java:136)
+	at org.sonar.core.platform.ComponentContainer.execute(ComponentContainer.java:122)
+	at org.sonar.scanner.scan.ProjectScanContainer.scan(ProjectScanContainer.java:400)
+	at org.sonar.scanner.scan.ProjectScanContainer.scanRecursively(ProjectScanContainer.java:395)
+	at org.sonar.scanner.scan.ProjectScanContainer.doAfterStart(ProjectScanContainer.java:358)
+	at org.sonar.core.platform.ComponentContainer.startComponents(ComponentContainer.java:136)
+	at org.sonar.core.platform.ComponentContainer.execute(ComponentContainer.java:122)
+	at org.sonar.scanner.bootstrap.GlobalContainer.doAfterStart(GlobalContainer.java:141)
+	at org.sonar.core.platform.ComponentContainer.startComponents(ComponentContainer.java:136)
+	at org.sonar.core.platform.ComponentContainer.execute(ComponentContainer.java:122)
+	at org.sonar.batch.bootstrapper.Batch.doExecute(Batch.java:73)
+	at org.sonar.batch.bootstrapper.Batch.execute(Batch.java:67)
+	at org.sonarsource.scanner.api.internal.batch.BatchIsolatedLauncher.execute(BatchIsolatedLauncher.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherProxy.invoke(IsolatedLauncherProxy.java:60)
+	at com.sun.proxy.$Proxy24.execute(Unknown Source)
+	at org.sonarsource.scanner.api.EmbeddedScanner.doExecute(EmbeddedScanner.java:185)
+	at org.sonarsource.scanner.api.EmbeddedScanner.execute(EmbeddedScanner.java:137)
+	at org.sonarsource.scanner.maven.bootstrap.ScannerBootstrapper.execute(ScannerBootstrapper.java:65)
+	at org.sonarsource.scanner.maven.SonarQubeMojo.execute(SonarQubeMojo.java:104)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:956)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:192)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+Caused by: java.io.IOException: Cannot run program "node": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at org.sonarsource.nodejs.NodeCommand$ProcessWrapperImpl.start(NodeCommand.java:154)
+	at org.sonarsource.nodejs.NodeCommand.start(NodeCommand.java:73)
+	... 56 common frames omitted
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 58 common frames omitted
+
+[INFO] Sensor SonarCSS Rules [cssfamily] (done) | time=689ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=5ms
+[INFO] Sensor SonarJS [javascript]
+[INFO] 113 source files to be analyzed
+[INFO] 76/113 files analyzed, current file: src/main/webapp/vendors/jquery-ui/ui/jquery-ui.custom.js
+[INFO] 82/113 files analyzed, current file: src/main/webapp/vendors/jquery-ui/ui/jquery.ui.datepicker.js
+[INFO] Sensor SonarJS [javascript] (done) | time=28732ms
+[INFO] Sensor ESLint-based SonarJS [javascript]
+[INFO] 113/113 source files have been analyzed
+[ERROR] Error when running: 'node -v'. Is Node.js available during analysis?
+org.sonarsource.nodejs.NodeCommandException: Error when running: 'node -v'. Is Node.js available during analysis?
+	at org.sonarsource.nodejs.NodeCommand.start(NodeCommand.java:77)
+	at org.sonarsource.nodejs.NodeCommandBuilderImpl.getVersion(NodeCommandBuilderImpl.java:171)
+	at org.sonarsource.nodejs.NodeCommandBuilderImpl.checkNodeCompatibility(NodeCommandBuilderImpl.java:144)
+	at org.sonarsource.nodejs.NodeCommandBuilderImpl.build(NodeCommandBuilderImpl.java:120)
+	at org.sonar.plugins.javascript.eslint.EslintBridgeServerImpl.initNodeCommand(EslintBridgeServerImpl.java:129)
+	at org.sonar.plugins.javascript.eslint.EslintBridgeServerImpl.startServer(EslintBridgeServerImpl.java:105)
+	at org.sonar.plugins.javascript.eslint.EslintBridgeServerImpl.startServerLazily(EslintBridgeServerImpl.java:145)
+	at org.sonar.plugins.javascript.eslint.EslintBasedRulesSensor.execute(EslintBasedRulesSensor.java:92)
+	at org.sonar.scanner.sensor.AbstractSensorWrapper.analyse(AbstractSensorWrapper.java:48)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute(ModuleSensorsExecutor.java:85)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.lambda$execute$1(ModuleSensorsExecutor.java:59)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.withModuleStrategy(ModuleSensorsExecutor.java:77)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute(ModuleSensorsExecutor.java:59)
+	at org.sonar.scanner.scan.ModuleScanContainer.doAfterStart(ModuleScanContainer.java:82)
+	at org.sonar.core.platform.ComponentContainer.startComponents(ComponentContainer.java:136)
+	at org.sonar.core.platform.ComponentContainer.execute(ComponentContainer.java:122)
+	at org.sonar.scanner.scan.ProjectScanContainer.scan(ProjectScanContainer.java:400)
+	at org.sonar.scanner.scan.ProjectScanContainer.scanRecursively(ProjectScanContainer.java:395)
+	at org.sonar.scanner.scan.ProjectScanContainer.doAfterStart(ProjectScanContainer.java:358)
+	at org.sonar.core.platform.ComponentContainer.startComponents(ComponentContainer.java:136)
+	at org.sonar.core.platform.ComponentContainer.execute(ComponentContainer.java:122)
+	at org.sonar.scanner.bootstrap.GlobalContainer.doAfterStart(GlobalContainer.java:141)
+	at org.sonar.core.platform.ComponentContainer.startComponents(ComponentContainer.java:136)
+	at org.sonar.core.platform.ComponentContainer.execute(ComponentContainer.java:122)
+	at org.sonar.batch.bootstrapper.Batch.doExecute(Batch.java:73)
+	at org.sonar.batch.bootstrapper.Batch.execute(Batch.java:67)
+	at org.sonarsource.scanner.api.internal.batch.BatchIsolatedLauncher.execute(BatchIsolatedLauncher.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherProxy.invoke(IsolatedLauncherProxy.java:60)
+	at com.sun.proxy.$Proxy24.execute(Unknown Source)
+	at org.sonarsource.scanner.api.EmbeddedScanner.doExecute(EmbeddedScanner.java:185)
+	at org.sonarsource.scanner.api.EmbeddedScanner.execute(EmbeddedScanner.java:137)
+	at org.sonarsource.scanner.maven.bootstrap.ScannerBootstrapper.execute(ScannerBootstrapper.java:65)
+	at org.sonarsource.scanner.maven.SonarQubeMojo.execute(SonarQubeMojo.java:104)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:956)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:192)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+Caused by: java.io.IOException: Cannot run program "node": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at org.sonarsource.nodejs.NodeCommand$ProcessWrapperImpl.start(NodeCommand.java:154)
+	at org.sonarsource.nodejs.NodeCommand.start(NodeCommand.java:73)
+	... 58 common frames omitted
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 60 common frames omitted
+
+[INFO] Sensor ESLint-based SonarJS [javascript] (done) | time=1261ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/root/.jenkins/workspace/hellopipe/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=2ms
+[INFO] Sensor JaCoCoSensor [java]
+[INFO] Sensor JaCoCoSensor [java] (done) | time=1ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] 2 source files to be analyzed
+[INFO] Sensor JavaXmlSensor [java] (done) | time=234ms
+[INFO] Sensor HTML [web]
+[INFO] 2/2 source files have been analyzed
+[INFO] Sensor HTML [web] (done) | time=139ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 2 source files to be analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=206ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] 2/2 source files have been analyzed
+[INFO] Sensor Zero Coverage Sensor (done) | time=88ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=57ms
+[INFO] SCM provider for this project is: git
+[INFO] 277 files to be analyzed
+[INFO] 277/277 files analyzed
+[INFO] 23 files had no CPD blocks
+[INFO] Calculating CPD for 148 files
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-af.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-af.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-af.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-az.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-az.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-az.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-be.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-be.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-be.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-bg.js for block at line 9. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-bs.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-bs.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-bs.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ca.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ca.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ca.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-cs.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-cs.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-cs.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-da.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-da.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-da.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-de.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-de.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-de.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-el.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-el.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-el.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-eo.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-eo.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-eo.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-es.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-es.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-es.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-et.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-et.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-et.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-eu.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-eu.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-eu.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-fo.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-fo.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-fo.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-fr.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-fr.js for block at line 7. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-fr.js for block at line 10. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-gl.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-gl.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-gl.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-he.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-he.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-he.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-hi.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-hi.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-hi.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-hr.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-hr.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-hr.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-hu.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-hu.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-hu.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-hy.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-hy.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-hy.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-id.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-id.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-id.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-is.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-is.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-is.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-it.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-it.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-it.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ja.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ja.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ja.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-kk.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-kk.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-kk.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-km.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-km.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-km.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ko.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ko.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ko.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ky.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ky.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ky.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-lb.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-lb.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-lb.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-lt.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-lt.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-lt.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-lv.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-lv.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-lv.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-mk.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-mk.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-mk.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ml.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ml.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ml.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ms.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ms.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ms.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-nl.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-nl.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-pl.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-pl.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-pl.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-pt.js for block at line 2. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-pt.js for block at line 4. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-pt.js for block at line 7. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ro.js for block at line 6. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ro.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ro.js for block at line 11. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ru.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ru.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ru.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-sk.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-sk.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-sk.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-sl.js for block at line 4. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-sl.js for block at line 6. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-sl.js for block at line 9. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-sq.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-sq.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-sq.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-sr.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-sr.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-sr.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ta.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ta.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-ta.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-th.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-th.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-th.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-tj.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-tj.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-tj.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-tr.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-tr.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-tr.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-uk.js for block at line 4. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-uk.js for block at line 6. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-uk.js for block at line 9. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-vi.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-vi.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-vi.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-pt-BR.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-pt-BR.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-pt-BR.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication groups on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery-ui-i18n.js. Keep only the first 100 groups.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-en-AU.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-en-AU.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-en-AU.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-en-GB.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-en-GB.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-en-GB.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-en-NZ.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-en-NZ.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-en-NZ.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-fr-CA.js for block at line 2. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-fr-CA.js for block at line 4. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-fr-CA.js for block at line 7. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-fr-CH.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-fr-CH.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-fr-CH.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-nl-BE.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-nl-BE.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-nl-BE.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-zh-CN.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-zh-CN.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-zh-CN.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-zh-HK.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-zh-HK.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-zh-HK.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-zh-TW.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-zh-TW.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-zh-TW.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-cy-GB.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-cy-GB.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-cy-GB.js for block at line 8. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-sr-SR.js for block at line 3. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-sr-SR.js for block at line 5. Keep only the first 100 references.
+[WARNING] Too many duplication references on file src/main/webapp/vendors/jquery-ui/ui/i18n/jquery.ui.datepicker-sr-SR.js for block at line 8. Keep only the first 100 references.
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 184ms, dir size=5 MB
+[INFO] Analysis report compressed in 598ms, zip size=2 MB
+[INFO] Analysis report uploaded in 200ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse http://ec2-54-210-39-226.compute-1.amazonaws.com:9000/dashboard?id=petclinic
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at http://ec2-54-210-39-226.compute-1.amazonaws.com:9000/api/ce/task?id=AWwAHlVLClV2RCHa6--v
+[INFO] Analysis total time: 47.717 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  50.369 s
+[INFO] Finished at: 2019-07-17T13:28:04Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4ELoKSG36DINT0La+M2XSLZ2iTD7qL9SAnsGqwVk929EAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
+[8mha:////4EnLhOmKd0XhHSDDhYhxKJQlyogsvu0/lJUp/a3YwnLeAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // stage
+[8mha:////4P1iD9Z7FUgZafRlReqUWgKmwNKcJhJC/Z46adTDc08HAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjISQKREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lG5POx33BAAAA[0m[Pipeline] stage
+[8mha:////4AiUHSO8a3eZJr+lZhMjHtEBrGOUKX4skGGMCGZrvgEzAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] { (Maven Package)
+[8mha:////4DHgsNuFswbQX2m/GNpba0d+jnHLTTERiqibr2QortT8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] sh
++ /opt/apache-maven-3.6.1/bin/mvn package -Dmaven.test.skip=true
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.springframework.samples:spring-petclinic >------------
+[INFO] Building petclinic 4.2.5-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-petclinic ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 18 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ spring-petclinic ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 45 source files to /root/.jenkins/workspace/hellopipe/target/classes
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java]]
+[parsing completed 28ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java]]
+[parsing completed 3ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java]]
+[parsing completed 17ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/Owner.java]]
+[parsing completed 3ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/VisitRepository.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java]]
+[parsing completed 5ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/package-info.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataOwnerRepository.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/Visit.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/Pet.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java]]
+[parsing completed 2ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/web/CrashController.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/web/VisitController.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java]]
+[parsing completed 15ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/web/PetController.java]]
+[parsing completed 2ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/web/PetValidator.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/PetRepository.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/PetType.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/service/ClinicService.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/Vets.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVetRepository.java]]
+[parsing completed 11ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/web/package-info.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRowMapper.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPet.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/Vet.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/Person.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/model/Specialty.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataPetRepository.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetVisitExtractor.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVisitRepository.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/web/PetTypeFormatter.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java]]
+[parsing completed 7ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/web/OwnerController.java]]
+[parsing completed 2ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jpa/package-info.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/web/VetController.java]]
+[parsing completed 1ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/OwnerRepository.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/jdbc/package-info.java]]
+[parsing completed 0ms]
+[parsing started RegularFileObject[/root/.jenkins/workspace/hellopipe/src/main/java/org/springframework/samples/petclinic/repository/VetRepository.java]]
+[parsing completed 0ms]
+[search path for source files: /root/.jenkins/workspace/hellopipe/src/main/java]
+[search path for class files: /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/resources.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/rt.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/sunrsasign.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jsse.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jce.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/charsets.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/jfr.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/classes,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/cldrdata.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/dnsns.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/jaccess.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/localedata.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/nashorn.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/sunec.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/sunjce_provider.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/sunpkcs11.jar,/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/lib/ext/zipfs.jar,/root/.jenkins/workspace/hellopipe/target/classes,/root/.m2/repository/org/jadira/usertype/usertype.core/3.2.0.GA/usertype.core-3.2.0.GA.jar,/root/.m2/repository/org/jadira/usertype/usertype.spi/3.2.0.GA/usertype.spi-3.2.0.GA.jar,/root/.m2/repository/org/apache/tomcat/tomcat-servlet-api/7.0.59/tomcat-servlet-api-7.0.59.jar,/root/.m2/repository/javax/servlet/jsp/javax.servlet.jsp-api/2.2.1/javax.servlet.jsp-api-2.2.1.jar,/root/.m2/repository/org/apache/tomcat/tomcat-jasper-el/7.0.59/tomcat-jasper-el-7.0.59.jar,/root/.m2/repository/org/apache/tomcat/tomcat-el-api/7.0.59/tomcat-el-api-7.0.59.jar,/root/.m2/repository/javax/servlet/jsp/jstl/javax.servlet.jsp.jstl-api/1.2.1/javax.servlet.jsp.jstl-api-1.2.1.jar,/root/.m2/repository/org/apache/taglibs/taglibs-standard-jstlel/1.2.5/taglibs-standard-jstlel-1.2.5.jar,/root/.m2/repository/org/apache/taglibs/taglibs-standard-spec/1.2.5/taglibs-standard-spec-1.2.5.jar,/root/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar,/root/.m2/repository/org/springframework/boot/spring-boot-starter/1.3.3.RELEASE/spring-boot-starter-1.3.3.RELEASE.jar,/root/.m2/repository/org/springframework/boot/spring-boot/1.3.3.RELEASE/spring-boot-1.3.3.RELEASE.jar,/root/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.3.3.RELEASE/spring-boot-autoconfigure-1.3.3.RELEASE.jar,/root/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.3.3.RELEASE/spring-boot-starter-logging-1.3.3.RELEASE.jar,/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar,/root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.jar,/root/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.16/log4j-over-slf4j-1.7.16.jar,/root/.m2/repository/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/1.3.3.RELEASE/spring-boot-starter-data-jpa-1.3.3.RELEASE.jar,/root/.m2/repository/org/springframework/boot/spring-boot-starter-aop/1.3.3.RELEASE/spring-boot-starter-aop-1.3.3.RELEASE.jar,/root/.m2/repository/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE.jar,/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar,/root/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/1.3.3.RELEASE/spring-boot-starter-jdbc-1.3.3.RELEASE.jar,/root/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar,/root/.m2/repository/org/springframework/data/spring-data-jpa/1.9.4.RELEASE/spring-data-jpa-1.9.4.RELEASE.jar,/root/.m2/repository/org/springframework/data/spring-data-commons/1.11.4.RELEASE/spring-data-commons-1.11.4.RELEASE.jar,/root/.m2/repository/org/springframework/spring-orm/4.2.5.RELEASE/spring-orm-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-aspects/4.2.5.RELEASE/spring-aspects-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/data/spring-data-jdbc-core/1.1.0.RELEASE/spring-data-jdbc-core-1.1.0.RELEASE.jar,/root/.m2/repository/org/springframework/retry/spring-retry/1.1.2.RELEASE/spring-retry-1.1.2.RELEASE.jar,/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-expression/4.2.5.RELEASE/spring-expression-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-context-support/4.2.5.RELEASE/spring-context-support-4.2.5.RELEASE.jar,/root/.m2/repository/org/springframework/spring-oxm/4.2.5.RELEASE/spring-oxm-4.2.5.RELEASE.jar,/root/.m2/repository/org/aspectj/aspectjrt/1.8.8/aspectjrt-1.8.8.jar,/root/.m2/repository/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar,/root/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar,/root/.m2/repository/joda-time/joda-time-hibernate/1.3/joda-time-hibernate-1.3.jar,/root/.m2/repository/joda-time/joda-time-jsptags/1.1.1/joda-time-jsptags-1.1.1.jar,/root/.m2/repository/org/hibernate/hibernate-entitymanager/4.3.11.Final/hibernate-entitymanager-4.3.11.Final.jar,/root/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar,/root/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar,/root/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar,/root/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar,/root/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar,/root/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar,/root/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar,/root/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar,/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar,/root/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar,/root/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar,/root/.m2/repository/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar,/root/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar,/root/.m2/repository/com/fasterxml/classmate/1.1.0/classmate-1.1.0.jar,/root/.m2/repository/org/hibernate/hibernate-ehcache/4.3.11.Final/hibernate-ehcache-4.3.11.Final.jar,/root/.m2/repository/net/sf/ehcache/ehcache-core/2.4.3/ehcache-core-2.4.3.jar,/root/.m2/repository/net/sf/ehcache/ehcache/2.10.1/ehcache-2.10.1.jar,/root/.m2/repository/com/github/dandelion/dandelion-jsp/1.1.1/dandelion-jsp-1.1.1.jar,/root/.m2/repository/com/github/dandelion/dandelion-core/1.1.1/dandelion-core-1.1.1.jar,/root/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar,/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.6.5/jackson-core-2.6.5.jar,/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.5/jackson-annotations-2.6.5.jar,/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.jar,/root/.m2/repository/com/github/dandelion/datatables-jsp/1.1.0/datatables-jsp-1.1.0.jar,/root/.m2/repository/com/github/dandelion/datatables-core/1.1.0/datatables-core-1.1.0.jar,/root/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar,/root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar,/root/.m2/repository/com/github/dandelion/datatables-export-itext/1.1.0/datatables-export-itext-1.1.0.jar,/root/.m2/repository/com/itextpdf/itextpdf/5.4.5/itextpdf-5.4.5.jar,/root/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar,.]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/sql/ResultSet.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/sql/SQLException.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Date.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar(org/joda/time/DateTime.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar(org/joda/time/LocalDate.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/RowMapper.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/CascadeType.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/Column.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/Entity.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/FetchType.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/JoinColumn.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/ManyToOne.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/OneToMany.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/Table.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar(org/hibernate/annotations/Type.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar(org/springframework/beans/support/MutableSortDefinition.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar(org/springframework/beans/support/PropertyComparator.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/format/annotation/DateTimeFormat.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/MappedSuperclass.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/GeneratedValue.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/GenerationType.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/Id.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar(javax/validation/constraints/Digits.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar(org/hibernate/validator/constraints/NotEmpty.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar(org/springframework/core/style/ToStringCreator.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar(org/springframework/beans/factory/annotation/Autowired.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar(org/springframework/dao/DataAccessException.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/JdbcTemplate.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/namedparam/MapSqlParameterSource.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/simple/SimpleJdbcInsert.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/stereotype/Repository.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/javax/sql/DataSource.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar(org/springframework/dao/EmptyResultDataAccessException.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/BeanPropertyRowMapper.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-orm/4.2.5.RELEASE/spring-orm-4.2.5.RELEASE.jar(org/springframework/orm/ObjectRetrievalFailureException.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/EntityManager.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/PersistenceContext.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/cache/annotation/Cacheable.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/JoinTable.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/ManyToMany.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/bind/annotation/XmlElement.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/data/spring-data-jpa/1.9.4.RELEASE/spring-data-jpa-1.9.4.RELEASE.jar(org/springframework/data/jpa/repository/Query.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/data/spring-data-commons/1.11.4.RELEASE/spring-data-commons-1.11.4.RELEASE.jar(org/springframework/data/repository/Repository.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/data/spring-data-commons/1.11.4.RELEASE/spring-data-commons-1.11.4.RELEASE.jar(org/springframework/data/repository/query/Param.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/namedparam/BeanPropertySqlParameterSource.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/stereotype/Controller.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar(org/springframework/web/bind/annotation/RequestMapping.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar(org/springframework/web/bind/annotation/RequestMethod.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar(javax/validation/Valid.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/validation/BindingResult.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar(org/springframework/web/bind/WebDataBinder.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar(org/springframework/web/bind/annotation/InitBinder.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar(org/springframework/web/bind/annotation/ModelAttribute.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar(org/springframework/web/bind/annotation/PathVariable.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/stereotype/Service.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar(org/springframework/transaction/annotation/Transactional.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/ui/ModelMap.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar(org/springframework/util/StringUtils.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/validation/Errors.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/validation/Validator.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/aspectj/aspectjrt/1.8.8/aspectjrt-1.8.8.jar(org/aspectj/lang/ProceedingJoinPoint.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/aspectj/aspectjrt/1.8.8/aspectjrt-1.8.8.jar(org/aspectj/lang/annotation/Around.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/aspectj/aspectjrt/1.8.8/aspectjrt-1.8.8.jar(org/aspectj/lang/annotation/Aspect.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/jmx/export/annotation/ManagedAttribute.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/jmx/export/annotation/ManagedOperation.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/jmx/export/annotation/ManagedResource.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar(org/springframework/util/StopWatch.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/bind/annotation/XmlRootElement.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/data/spring-data-jdbc-core/1.1.0.RELEASE/spring-data-jdbc-core-1.1.0.RELEASE.jar(org/springframework/data/jdbc/core/OneToManyResultSetExtractor.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/ResultSetExtractor.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/text/ParseException.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Locale.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/format/Formatter.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/format/Printer.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/format/Parser.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/Query.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-orm/4.2.5.RELEASE/spring-orm-4.2.5.RELEASE.jar(org/springframework/orm/hibernate3/support/OpenSessionInViewFilter.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/ui/Model.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.jar(org/springframework/web/servlet/ModelAndView.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar(org/springframework/web/bind/annotation/ResponseBody.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/format/annotation/DateTimeFormat$ISO.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar(javax/validation/Constraint.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar(javax/validation/constraints/Size.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/PersistenceContextType.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/SynchronizationType.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar(org/springframework/core/annotation/AliasFor.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/ForeignKey.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/ConstraintMode.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/SuppressWarnings.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar(org/springframework/transaction/annotation/Propagation.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar(org/springframework/transaction/annotation/Isolation.class)]]
+[checking org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Error.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/sql/Wrapper.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/sql/Date.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar(org/joda/time/Chronology.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar(org/joda/time/DateTimeZone.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Number.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Byte.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Short.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Float.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.class]]
+[checking org.springframework.samples.petclinic.repository.jdbc.JdbcPet]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractSet.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar(org/springframework/beans/support/SortDefinition.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Comparator.class)]]
+[checking org.springframework.samples.petclinic.model.Pet]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar(org/springframework/beans/BeansException.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar(org/springframework/core/NestedRuntimeException.class)]]
+[checking org.springframework.samples.petclinic.model.NamedEntity]
+[checking org.springframework.samples.petclinic.model.BaseEntity]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcPet.class]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/Pet.class]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/NamedEntity.class]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/BaseEntity.class]]
+[checking org.springframework.samples.petclinic.model.PetType]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/PetType.class]]
+[checking org.springframework.samples.petclinic.model.Owner]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class)]]
+[checking org.springframework.samples.petclinic.model.Person]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/Owner.class]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/Person.class]]
+[checking org.springframework.samples.petclinic.model.Visit]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/Visit.class]]
+[checking org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/simple/SimpleJdbcInsertOperations.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/simple/AbstractJdbcInsert.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/namedparam/AbstractSqlParameterSource.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/namedparam/SqlParameterSource.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/UnsupportedOperationException.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar(org/joda/time/ReadablePartial.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar(org/joda/time/base/BaseLocal.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar(org/joda/time/base/AbstractPartial.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/PreparedStatementSetter.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/RowCallbackHandler.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/PreparedStatementCreator.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/JdbcOperations.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/support/JdbcAccessor.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar(org/springframework/beans/factory/InitializingBean.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.class]]
+[checking org.springframework.samples.petclinic.repository.VisitRepository]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/VisitRepository.class]]
+[checking org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/javax/sql/CommonDataSource.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractMap.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-jdbc/4.2.5.RELEASE/spring-jdbc-4.2.5.RELEASE.jar(org/springframework/jdbc/core/namedparam/NamedParameterJdbcOperations.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar(org/springframework/dao/IncorrectResultSizeDataAccessException.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar(org/springframework/dao/DataRetrievalFailureException.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-tx/4.2.5.RELEASE/spring-tx-4.2.5.RELEASE.jar(org/springframework/dao/NonTransientDataAccessException.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Double.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Void.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.class]]
+[checking org.springframework.samples.petclinic.repository.PetRepository]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/PetRepository.class]]
+[checking org.springframework.samples.petclinic.repository.OwnerRepository]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/OwnerRepository.class]]
+[checking org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/TypedQuery.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/criteria/CriteriaDelete.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/criteria/CriteriaUpdate.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/criteria/CriteriaQuery.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.class]]
+[checking org.springframework.samples.petclinic.repository.VetRepository]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/VetRepository.class]]
+[checking org.springframework.samples.petclinic.model.Vet]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/Vet.class]]
+[checking org.springframework.samples.petclinic.model.Specialty]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/Specialty.class]]
+[checking org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataOwnerRepository.class]]
+[checking org.springframework.samples.petclinic.util.EntityUtils]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/GenericDeclaration.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/AnnotatedElement.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Type.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/util/EntityUtils.class]]
+[checking org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Cloneable.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AbstractStringBuilder.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Appendable.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuffer.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.class]]
+[checking org.springframework.samples.petclinic.web.CrashController]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/web/CrashController.class]]
+[checking org.springframework.samples.petclinic.web.VisitController]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-context/4.2.5.RELEASE/spring-context-4.2.5.RELEASE.jar(org/springframework/validation/DataBinder.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar(org/springframework/beans/PropertyEditorRegistry.class)]]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar(org/springframework/beans/TypeConverter.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/web/VisitController.class]]
+[checking org.springframework.samples.petclinic.service.ClinicService]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/service/ClinicService.class]]
+[checking org.springframework.samples.petclinic.service.ClinicServiceImpl]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/service/ClinicServiceImpl.class]]
+[checking org.springframework.samples.petclinic.web.PetController]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedHashMap.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/web/PetController.class]]
+[checking org.springframework.samples.petclinic.web.PetValidator]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/web/PetValidator.class]]
+[checking org.springframework.samples.petclinic.util.CallMonitoringAspect]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/aspectj/aspectjrt/1.8.8/aspectjrt-1.8.8.jar(org/aspectj/lang/JoinPoint.class)]]
+[loading ZipFileIndexFileObject[/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalStateException.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/util/CallMonitoringAspect.class]]
+[checking org.springframework.samples.petclinic.model.Vets]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/model/Vets.class]]
+[checking org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVetRepository.class]]
+[checking org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRowMapper.class]]
+[checking org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl$1.class]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.class]]
+[checking org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataPetRepository.class]]
+[checking org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jdbc/JdbcPetVisitExtractor.class]]
+[checking org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVisitRepository.class]]
+[checking org.springframework.samples.petclinic.web.PetTypeFormatter]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/web/PetTypeFormatter.class]]
+[checking org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.class]]
+[checking org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar(javax/persistence/Parameter.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.class]]
+[checking org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.class]]
+[checking org.springframework.samples.petclinic.web.OwnerController]
+[loading ZipFileIndexFileObject[/root/.m2/repository/org/springframework/spring-webmvc/4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE.jar(org/springframework/web/servlet/View.class)]]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/web/OwnerController.class]]
+[checking org.springframework.samples.petclinic.web.VetController]
+[wrote RegularFileObject[/root/.jenkins/workspace/hellopipe/target/classes/org/springframework/samples/petclinic/web/VetController.class]]
+[total 1004ms]
+[WARNING] bootstrap class path not set in conjunction with -source 1.7
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-petclinic ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ spring-petclinic ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.13:test (default-test) @ spring-petclinic ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.3:war (default-war) @ spring-petclinic ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [spring-petclinic] in [/root/.jenkins/workspace/hellopipe/target/spring-petclinic-4.2.5-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/root/.jenkins/workspace/hellopipe/src/main/webapp]
+[INFO] Webapp assembled in [378 msecs]
+[INFO] Building war: /root/.jenkins/workspace/hellopipe/target/petclinic.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.961 s
+[INFO] Finished at: 2019-07-17T13:28:09Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4IQj9MxrOxAM4oi4CNBz009tdyCnsgi/NOkIYbA129bcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9hbYOkvgAAAA==[0m[Pipeline] }
+[8mha:////4HkevB7xX3wQ65Yzh6iBBLL/eJ6CQyc61Tiri0T2EzYWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9Vo2D/vgAAAA==[0m[Pipeline] // stage
+[8mha:////4KYCzCcwdpJDihMetvKyOO0QtECWFYREqiDliJydjNzAAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjAR2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INlFR9i8EAAAA=[0m[Pipeline] stage
+[8mha:////4MbQ2OhVOUAFQ8btUULS9vXRslOzoG71ER80Qjm9Q96mAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] { (Deploy Code)
+[8mha:////4Daxv4Zer7U0PAXM33YN5EsTdmxSk4lIqrCTyc/zPUQmAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] sshagent
+[ssh-agent] Using credentials centos
+[ssh-agent] Looking for ssh-agent implementation...
+[ssh-agent]   Exec ssh-agent (binary ssh-agent on a remote machine)
+$ ssh-agent
+SSH_AUTH_SOCK=/tmp/ssh-cHfPaNhvp7eh/agent.4967
+SSH_AGENT_PID=4970
+Running ssh-add (command line suppressed)
+Identity added: /root/.jenkins/workspace/hellopipe@tmp/private_key_6714334718794924705.key (/root/.jenkins/workspace/hellopipe@tmp/private_key_6714334718794924705.key)
+[ssh-agent] Started.
+[8mha:////4LpGnR/UfB7jIFb9sjyuPmAEniq8hpdShwE8YvwgRVa5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] {
+[8mha:////4BNQbjylOB20JE/D1dB2C+DzNzDuQKxzc+AN+CdZmn/IAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN6Ew6eS+AAAA[0m[Pipeline] sh
++ scp -o StrictHostKeyChecking=no target/petclinic.war centos@ec2-54-85-55-204.compute-1.amazonaws.com:/opt/apache-tomcat-7.0.94/webapps/
+Aborted by [8mha:////4DwjZzEcffynxGKjn0nR1AzYn3G2CbWY+1lAIthiTYrGAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL99PzSkozEXAChXnHAwgAAAA==[0mgoutham
+Sending interrupt signal to process
+lost connection
+script returned exit code 1
+[8mha:////4LJR3hiK8YdKCntBKT7peyg22nL443f8B3OBji94k1APAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQElECzevgAAAA==[0m[Pipeline] }
+$ ssh-agent -k
+unset SSH_AUTH_SOCK;
+unset SSH_AGENT_PID;
+echo Agent pid 4970 killed;
+[ssh-agent] Stopped.
+[8mha:////4EjUGzA00/sB8Ys9aTNrm4y/H7c9UW+RL4iUEJH3eQLjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFmkn1YvgAAAA==[0m[Pipeline] // sshagent
+[8mha:////4HZSZYdHAEdUq19fu/1C19MnZaOunqb684JXnhKdRJpMAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSpHIcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfYNRFDb4AAAA=[0m[Pipeline] }
+[8mha:////4JY7gcs3QtQuVSJV7zCHVACHYXNRXoRqQdkYAhV/f0f6AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCgA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5trvPrCL6pi+AAAA[0m[Pipeline] // stage
+[8mha:////4EOhPX0fEYPdbesLLyK5CD/hO31x8Oa66Fjp81jKAEPJAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6LEhM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAhpPov70AAAA=[0m[Pipeline] }
+[8mha:////4GbWzVc/SdeDTUOh3TJsZ7i7Gpya4MyPIN6YZIBDj6MTAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcB9XwsZr0AAAA=[0m[Pipeline] // node
+[8mha:////4OQ7PQZbM6zoU2KySgzC0Go5y3Ko4MrXsHFMH53nGaq0AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q73eCbPsB02VLLL0AAAA=[0m[Pipeline] End of Pipeline
+Finished: ABORTED

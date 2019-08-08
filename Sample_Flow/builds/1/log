@@ -1,0 +1,25 @@
+Started by GitHub push by gkdevops
+Running as SYSTEM
+Building on master in workspace /root/.jenkins/workspace/Sample_Flow
+using credential github.com
+Cloning the remote Git repository
+Cloning repository https://github.com/gkdevops/PetClinic.git
+ > git init /root/.jenkins/workspace/Sample_Flow # timeout=10
+Fetching upstream changes from https://github.com/gkdevops/PetClinic.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials github.com
+ > git fetch --tags --progress https://github.com/gkdevops/PetClinic.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/gkdevops/PetClinic.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/gkdevops/PetClinic.git # timeout=10
+Fetching upstream changes from https://github.com/gkdevops/PetClinic.git
+using GIT_ASKPASS to set credentials github.com
+ > git fetch --tags --progress https://github.com/gkdevops/PetClinic.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9d6692c0f83b9142d19ff3d69818c28d44b48fd0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9d6692c0f83b9142d19ff3d69818c28d44b48fd0
+Commit message: "Update Readme.txt"
+First time build. Skipping changelog.
+Finished: SUCCESS

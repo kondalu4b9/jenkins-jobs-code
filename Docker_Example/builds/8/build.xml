@@ -1,0 +1,206 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.33">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>goutham</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.13">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.70">
+      <env class="tree-map">
+        <entry>
+          <string>PATH</string>
+          <string>/opt/apache-maven-3.6.1/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin</string>
+        </entry>
+      </env>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <hudson.plugins.git.util.BuildData plugin="git@3.10.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.8.0">
+              <sha1>ae827e4e1195222b3896c15cb8aabfa2bf21e74e</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>8</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>https://github.com/gouthamchilakala/jenkins-pipeline.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.10.0">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/root/.jenkins/workspace/Docker_Example</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.9">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/gouthamchilakala/jenkins-pipeline.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@2.4.5"/>
+  </actions>
+  <queueId>160</queueId>
+  <timestamp>1563528905470</timestamp>
+  <startTime>1563528905479</startTime>
+  <result>SUCCESS</result>
+  <duration>35932</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>def CONTAINER_NAME=&quot;petclinic&quot;
+def CONTAINER_TAG=&quot;latest&quot;
+def DOCKER_HUB_USER=&quot;chgoutam&quot;
+def HTTP_PORT=&quot;8090&quot;
+
+node {
+
+    stage(&apos;Initialize&apos;){
+        def mavenHome  = tool name: &apos;MAVEN3&apos;, type: &apos;maven&apos;
+        env.PATH = &quot;${mavenHome}/bin:${env.PATH}&quot;
+        sh &quot;echo ${env.GIT_COMMIT}&quot;
+    }
+
+    stage(&apos;Checkout&apos;) {
+	    git &apos;https://github.com/gouthamchilakala/jenkins-pipeline.git&apos;	
+    }
+
+    stage(&apos;Build&apos;){
+        sh &quot;mvn clean package&quot;
+    }
+
+    stage(&quot;Image Prune&quot;){
+        imagePrune(CONTAINER_NAME)
+    }
+
+    stage(&apos;Image Build&apos;){
+        imageBuild(CONTAINER_NAME, CONTAINER_TAG)
+    }
+
+    stage(&apos;Push to Docker Registry&apos;){
+        withCredentials([usernamePassword(credentialsId: &apos;dockerHubAccount&apos;, usernameVariable: &apos;USERNAME&apos;, passwordVariable: &apos;PASSWORD&apos;)]) {
+            pushToImage(CONTAINER_NAME, CONTAINER_TAG, USERNAME, PASSWORD)
+        }
+    }
+
+    stage(&apos;Run App&apos;){
+        runApp(CONTAINER_NAME, CONTAINER_TAG, DOCKER_HUB_USER, HTTP_PORT)
+    }
+    
+    stage(&quot;Image Prune Finally&quot;){
+        imagePrune(CONTAINER_NAME)
+    }
+
+}
+
+def imagePrune(containerName){
+    try {
+        sh &quot;docker image prune -f&quot;
+        sh &quot;docker stop $containerName&quot;
+    } catch(error){}
+}
+
+def imageBuild(containerName, tag){
+    sh &quot;docker build -t $containerName:$tag  -t $containerName --pull --no-cache .&quot;
+    echo &quot;Image build complete&quot;
+}
+
+def pushToImage(containerName, tag, dockerUser, dockerPassword){
+    sh &quot;docker login -u $dockerUser -p $dockerPassword&quot;
+    sh &quot;docker tag $containerName:$tag $dockerUser/$containerName:$tag&quot;
+    sh &quot;docker push $dockerUser/$containerName:$tag&quot;
+    echo &quot;Image push complete&quot;
+}
+
+def runApp(containerName, tag, dockerHubUser, httpPort){
+    sh &quot;docker pull $dockerHubUser/$containerName&quot;
+    sh &quot;docker run -d --rm -p $httpPort:$httpPort --name $containerName $dockerHubUser/$containerName:$tag&quot;
+    echo &quot;Application started on port: ${httpPort} (http)&quot;
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>498972597</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>2865257288</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>2198044877</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>1689314399</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>326900529</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>60</iota>
+    <head>1:60</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.10.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/gouthamchilakala/jenkins-pipeline.git</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>*/master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.LocalBranch>
+            <localBranch>master</localBranch>
+          </hudson.plugins.git.extensions.impl.LocalBranch>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/root/.jenkins/workspace/Docker_Example</workspace>
+      <changelogFile>/root/.jenkins/jobs/Docker_Example/builds/8/changelog5179203608099874596.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

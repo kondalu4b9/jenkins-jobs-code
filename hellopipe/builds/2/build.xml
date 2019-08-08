@@ -1,0 +1,102 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.33">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>environment</name>
+          <description></description>
+          <value>goutham</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>environment</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>goutham</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.13">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.70">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+  </actions>
+  <queueId>10</queueId>
+  <timestamp>1562650534540</timestamp>
+  <startTime>1562650534543</startTime>
+  <result>FAILURE</result>
+  <duration>233</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node{
+    
+    def mvnHome = tool name: &quot;MAVEN3&quot;, type: maven
+    def mvnCli = &quot;${mvnHome}/bin/mvn&quot;
+    
+    
+    properties([buildDiscarder(logRotator(artifactDaysToKeepStr: &apos;&apos;, artifactNumToKeepStr: &apos;&apos;, daysToKeepStr: &apos;&apos;, numToKeepStr: &apos;30&apos;)), disableConcurrentBuilds(), [$class: &apos;GithubProjectProperty&apos;, displayName: &apos;&apos;, projectUrlStr: &apos;http://github.com/gkdevops/PetClinic.git/&apos;], parameters([string(defaultValue: &apos;DEV&apos;, description: &apos;&apos;, name: &apos;environment&apos;, trim: false)]), pipelineTriggers([githubPush()])])
+    
+    stage(&apos;Checkout Code&apos;){
+        git credentialsId: &apos;b682e002-bdfa-4f9a-9dd2-5ac74d2ddbd2&apos;, url: &apos;https://github.com/gkdevops/PetClinic.git&apos;
+    }
+    
+    stage(&apos;Read parameters&apos;){
+        echo &quot;${param.environment}&quot;
+    }
+    
+    stage(&apos;Maven Test&apos;){
+        sh &quot;${mvnCli} clean compile&quot;
+    }
+    
+    stage(&apos;Maven Package&apos;){
+        sh &quot;${mvnCli} package -Dmaven.test.skip=true&quot;
+    }    
+    
+    
+    
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>60391150</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>78281929</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>173581332</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>31459131</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>19343118</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>7</iota>
+    <head>1:7</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

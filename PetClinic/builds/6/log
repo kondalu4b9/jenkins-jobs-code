@@ -1,0 +1,36 @@
+Started by GitHub push by gkdevops
+Running as SYSTEM
+Building on master in workspace /root/.jenkins/workspace/PetClinic
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+using credential b682e002-bdfa-4f9a-9dd2-5ac74d2ddbd2
+Cloning the remote Git repository
+Cloning repository https://github.com/gkdevops/PetClinic.git
+ > git init /root/.jenkins/workspace/PetClinic # timeout=10
+Fetching upstream changes from https://github.com/gkdevops/PetClinic.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/gkdevops/PetClinic.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/gkdevops/PetClinic.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/gkdevops/PetClinic.git # timeout=10
+Fetching upstream changes from https://github.com/gkdevops/PetClinic.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/gkdevops/PetClinic.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 402a254b5e816bab445884b69c5afe19d6bbfa39 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 402a254b5e816bab445884b69c5afe19d6bbfa39
+Commit message: "Update Readme.txt"
+ > git rev-list --no-walk c63986c8340329d374b091ace96b1743203603c9 # timeout=10
+[PetClinic] $ /opt/apache-maven-3.6.1/bin/mvn clean test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.springframework.samples:spring-petclinic >------------
+[INFO] Building petclinic 4.2.5-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+Build was aborted
+Aborted by [8mha:////4DwjZzEcffynxGKjn0nR1AzYn3G2CbWY+1lAIthiTYrGAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL99PzSkozEXAChXnHAwgAAAA==[0mgoutham
+Finished: ABORTED
